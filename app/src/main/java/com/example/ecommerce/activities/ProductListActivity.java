@@ -50,14 +50,24 @@ public class ProductListActivity extends AppCompatActivity implements ProductAda
         productList = new ArrayList<>();
 
         // Add dummy products
-        productList.add(new Product(1, "Smartphone", "High-end smartphone with 6.5-inch display", 799.99, R.drawable.product_phone, 4.5, "Electronics"));
-        productList.add(new Product(2, "Laptop", "Business laptop with 16GB RAM and 512GB SSD", 1299.99, R.drawable.product_laptop, 4.7, "Electronics"));
-        productList.add(new Product(3, "Headphones", "Wireless noise-canceling headphones", 199.99, R.drawable.product_headphones, 4.2, "Accessories"));
-        productList.add(new Product(4, "Smartwatch", "Fitness tracker with heart rate monitor", 249.99, R.drawable.product_smartwatch, 4.4, "Wearables"));
-        productList.add(new Product(5, "Camera", "Digital camera with 24MP sensor", 699.99, R.drawable.product_camera, 4.6, "Electronics"));
-        productList.add(new Product(6, "Tablet", "10-inch tablet with HD display", 399.99, R.drawable.product_tablet, 4.3, "Electronics"));
-        productList.add(new Product(7, "Speaker", "Bluetooth wireless speaker", 129.99, R.drawable.product_speaker, 4.1, "Accessories"));
-        productList.add(new Product(8, "Game Console", "Next-gen gaming console", 499.99, R.drawable.product_console, 4.8, "Gaming"));
+        productList.add(new Product(1, "Smartphone", "Premium smartphone with 6.5-inch OLED display, powerful processor, and long-lasting battery", 799.99, R.drawable.product_phone, 4.5, "Electronics"));
+        productList.add(new Product(2, "Laptop", "High-performance business laptop with 16GB RAM, 512GB SSD, and sleek design", 1299.99, R.drawable.product_laptop, 4.7, "Electronics"));
+        productList.add(new Product(3, "Headphones", "Wireless noise-canceling headphones with rich sound quality and comfortable fit", 199.99, R.drawable.product_headphones, 4.2, "Accessories"));
+        productList.add(new Product(4, "Smartwatch", "Stylish smartwatch with fitness tracking, heart rate monitor, and long battery life", 249.99, R.drawable.product_smartwatch, 4.4, "Wearables"));
+        productList.add(new Product(5, "Camera", "Compact digital camera with 24MP sensor, 4K video support, and optical zoom", 699.99, R.drawable.product_camera, 4.6, "Electronics"));
+        productList.add(new Product(6, "Tablet", "Lightweight 10-inch tablet with HD display, powerful performance, and dual speakers", 399.99, R.drawable.product_tablet, 4.3, "Electronics"));
+        productList.add(new Product(7, "Speaker", "Portable Bluetooth speaker with deep bass and waterproof design", 129.99, R.drawable.speaker, 4.1, "Accessories"));
+        productList.add(new Product(8, "Game Console", "Next-gen gaming console with ultra-fast load times and immersive graphics", 499.99, R.drawable.product_console, 4.8, "Gaming"));
+
+// New products
+        productList.add(new Product(9, "Shirt", "Casual slim-fit shirt made from breathable cotton fabric", 49.99, R.drawable.shirt, 4.3, "Clothing"));
+        productList.add(new Product(10, "Shoes", "Stylish running shoes with cushioned sole and breathable mesh upper", 89.99, R.drawable.shoes, 4.6, "Footwear"));
+        productList.add(new Product(11, "T-Shirt", "Comfortable cotton t-shirt with modern fit and durable stitching", 29.99, R.drawable.tshirt, 4.4, "Clothing"));
+        productList.add(new Product(12, "Wallet", "Premium leather wallet with RFID protection and multiple compartments", 39.99, R.drawable.wallet, 4.5, "Accessories"));
+        productList.add(new Product(13, "Power Bank", "10000mAh power bank with fast charging support and compact design", 59.99, R.drawable.powerbank, 4.4, "Electronics"));
+        productList.add(new Product(14, "Sunglasses", "UV-protected stylish sunglasses with polarized lenses", 79.99, R.drawable.sunglasses, 4.3, "Accessories"));
+        productList.add(new Product(15, "Jeans", "Classic straight-fit jeans made with stretchable denim for comfort", 69.99, R.drawable.jeans, 4.2, "Clothing"));
+
 
     }
 
