@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Theme Colors - Enhanced -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- App Theme Colors - Modern Purple -->
+    <color name="colorPrimary">#6200EA</color>
+    <color name="colorPrimaryDark">#4A00B0</color>
+    <color name="colorPrimaryLight">#E8DEF8</color>
+    <color name="colorAccent">#03DAC6</color>
+
+    <!-- UI Background Colors -->
+    <color name="colorBackground">#F6F8FF</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorError">#CF6679</color>
+    <color name="colorSuccess">#4CAF50</color>
+    <color name="colorWarning">#FFAB00</color>
+    <color name="colorInfo">#2196F3</color>
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#1D1B20</color>
+    <color name="textSecondary">#49454F</color>
+    <color name="textHint">#79747E</color>
+    <color name="textDisabled">#C4C4C4</color>
+    <color name="textOnPrimary">#FFFFFF</color>
+    <color name="textOnDark">#FFFFFF</color>
+    <color name="textOnAccent">#000000</color>
+
+    <!-- Dividers and Borders -->
+    <color name="divider">#E4E4E4</color>
+    <color name="border">#E0E0E0</color>
+
+    <!-- Card and Element Colors -->
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="cardElevation">#14000000</color>
+    <color name="rippleEffect">#1A6200EA</color>
+    <color name="shadowColor">#1A000000</color>
+
+    <!-- Status and Navigation Colors -->
+    <color name="statusBarColor">@color/colorPrimaryDark</color>
+    <color name="navigationBarColor">#FFFFFF</color>
+    <color name="navBarIconColor">#49454F</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradientStart">#7B1FA2</color>
+    <color name="gradientCenter">#6200EA</color>
+    <color name="gradientEnd">#4A00B0</color>
+
+    <!-- Item States -->
+    <color name="itemSelected">#E8DEF8</color>
+    <color name="itemPressed">#D0BCFF</color>
+    <color name="itemFocused">#F5EEFF</color>
+</resources>
